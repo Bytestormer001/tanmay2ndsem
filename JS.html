@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // JS variables store a value (or undefined if nothing is assigned)
+
+        var myName = "Tanmay";
+        document.write(myName);
+        console.log(myName);
+
+        function demo(){
+            var msg="hello !!";
+            console.log(msg)
+        }
+        demo();
+        //variabledeclaration using let and const.
+        let myNumber=9310037077;
+        console.log(myNumber);
+
+        const myEmail = "tanmayteotia01@gmail.com"
+        console.log(myEmail);
+
+        // string
+        var myName="Tanmay";
+        console.log(myName);
+
+        //boolean
+        var isMaried=false ;
+        console.log(myName + "is Maried" + isMaried);
+
+        //number
+        var myNumber=9310037077;
+        console.log(myName + "is"+ myNumber );
+
+
+        // undefined
+        var myEmail="tanmayteotia01@gmail.com"
+        console.log(myName + "is" + myEmail)
+
+        //null
+        var myAdress=null;
+        console.log(myAdress) ;
+      
+
+        // object- collection of keys(properties) and its value
+        // create an object using literal way and new keyboard
+        let student = {
+            Name: "Tanmay",
+            age: 19 ,
+            isMarried: true,
+            adress: {
+                street no:23,
+                area:"Noida",
+                pincode:201013
+                city:"Ghaziabad"
+            
+            }
+            education:["10th","12th","B.tech"],
+            degree:"b.tech",
+            branch:"CSE",
+            year:2025,
+            getInfo:function(){
+                return "my current education is" + student.degree;
+            }
+        };
+        //acess object's keys using dot notation
+        console.log(student.adress.pincode)//object
+        console.log(student.education[2]); //array
+        console.log(student.getInfo());//function
+        console.log(typeof(student));
+        //find keys in object
+        console.log(keyslength.length);//return array of keys
+        //iterate keys of object using loop
+        for(let i=0;i<keyslength; i++){
+        
+        }
+
+    </script>
+    
+</body>
+</html>
